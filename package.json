@@ -10,12 +10,15 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
     "heroku-postbuild": "cd client && npm run build"
-    
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "if-env": "^1.0.4"
+    "@reduxjs/toolkit": "^1.5.1",
+    "graphql": "^15.5.0",
+    "graphql-tag": "^2.12.4",
+    "if-env": "^1.0.4",
+    "stripe": "^8.148.0"
   },
   "devDependencies": {
     "concurrently": "^5.1.0"
